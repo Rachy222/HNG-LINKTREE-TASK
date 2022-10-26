@@ -1,11 +1,70 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
 .App {
   text-align: center;
+  padding-top: 3rem;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter var', sans-serif;
+  /*font-family: "Poppins", sans-serif;
+  border: 1px solid red; */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+button{
+  width: 90%;
+  padding: 1.5rem 0;
+  text-decoration: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+  background-color: #EAECF0;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #d0d5dd;
+}
+
+.Content{
+  margin-bottom: 1rem;
+}
+
+.Slack-Name{
+  display: none;
+}
+
+.Twitter-Name{
+  margin-top: 1rem;
+}
+
+.Social-icon{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+footer{
+ display: flex;
+ justify-content: space-around;
+ padding: 15px 0px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
