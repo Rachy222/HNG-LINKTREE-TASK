@@ -21,11 +21,56 @@
   padding-top: 2rem;
 }
 
-#profile__img {
-  background-color: purple;
+.share-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  left: 75%;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.share-button:hover {
+  background: #F9FAFB;
+}
+
+.share-button .share-mobile{
+  display: none;
+}
+
+.Profile-Container {
+  position: relative;
+  margin-top: 2.5rem;
+}
+
+.Profile-Container #profile__img {
   border-radius: 50%;
   cursor: pointer;
+  height: 160px;
+
 }
+
+.Profile-Container:hover #profile__img {
+  -webkit-filter: brightness(40%);
+}
+
+ .Profile-Container .edit {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.Profile-Container:hover .edit {
+  visibility: visible;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -130,5 +175,13 @@ footer p {
 
   button {
     width: 90%;
+  }
+
+  .share-button .share-mobile{
+    display: block;
+  }
+
+  .share-button .share-desktop{
+    display: none;
   }
 }

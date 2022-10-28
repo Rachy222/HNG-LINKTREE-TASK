@@ -3,13 +3,18 @@ import Link from "./components/Links";
 import Footer from "./components/Footer";
 import Profile from "./components/Profile";
 import Icons from "./components/Icons";
+import Shares from "./components/Share";
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className='share-button'>
+         <Shares />
+      </div>
+      <div className="Profile-Container">
         <Profile />
       </div>
 
