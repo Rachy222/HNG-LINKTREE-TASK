@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/HNG-LINKTREE-TASK/static/css/main.82b71919.css",
-    "main.js": "/HNG-LINKTREE-TASK/static/js/main.e2b95b72.js",
-    "static/media/rachy.svg": "/HNG-LINKTREE-TASK/static/media/rachy.1467b0086026e26e1d44364153cf4bd6.svg",
+    "main.css": "/HNG-LINKTREE-TASK/static/css/main.05bdc2b7.css",
+    "main.js": "/HNG-LINKTREE-TASK/static/js/main.802d2737.js",
+    "static/media/Rachy.jpg": "/HNG-LINKTREE-TASK/static/media/Rachy.33d2cebbe1fb2e33c770.jpg",
     "static/media/I4G.svg": "/HNG-LINKTREE-TASK/static/media/I4G.601ff0479d970c740e8b7d7ba7821548.svg",
     "static/media/zuri-logo.svg": "/HNG-LINKTREE-TASK/static/media/zuri-logo.fe365f435ac709b515e1114cc859cdb6.svg",
     "static/media/slack.svg": "/HNG-LINKTREE-TASK/static/media/slack.6fa75d08a444264c64393c623e71c055.svg",
+    "static/media/hover-icon.svg": "/HNG-LINKTREE-TASK/static/media/hover-icon.6317244a5381be929492c969c7c62821.svg",
     "static/media/Icon.svg": "/HNG-LINKTREE-TASK/static/media/Icon.6a40f212828370260b880b93f8d36b56.svg",
+    "static/media/Share-mobile.svg": "/HNG-LINKTREE-TASK/static/media/Share-mobile.ef0667842321f70b92ece6b332a6dc6f.svg",
+    "static/media/Share-desktop.svg": "/HNG-LINKTREE-TASK/static/media/Share-desktop.8b4369de8ab30a8ae240d027dafeccf0.svg",
     "index.html": "/HNG-LINKTREE-TASK/index.html",
-    "main.82b71919.css.map": "/HNG-LINKTREE-TASK/static/css/main.82b71919.css.map",
-    "main.e2b95b72.js.map": "/HNG-LINKTREE-TASK/static/js/main.e2b95b72.js.map"
+    "main.05bdc2b7.css.map": "/HNG-LINKTREE-TASK/static/css/main.05bdc2b7.css.map",
+    "main.802d2737.js.map": "/HNG-LINKTREE-TASK/static/js/main.802d2737.js.map"
   },
   "entrypoints": [
-    "static/css/main.82b71919.css",
-    "static/js/main.e2b95b72.js"
+    "static/css/main.05bdc2b7.css",
+    "static/js/main.802d2737.js"
   ]
 }
