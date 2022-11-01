@@ -5,9 +5,6 @@ import Profile from "./components/Profile";
 import Icons from "./components/Icons";
 import Shares from "./components/Share";
 
-
-
-
 function App() {
   return (
     <div className="App">
