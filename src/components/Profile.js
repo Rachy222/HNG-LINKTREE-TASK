@@ -5,7 +5,7 @@ import Hover from "../images/hover-icon.svg";
 export default function Profile() {
     return (
         <>
-        <img src={Avatar} alt="profile-img" id="profile__img"></img>
+        <img src={Avatar} id="profile__img" alt="profile-img" ></img>
         <img src={Hover} className='edit'  alt="hover-icon" />
         <h3 id="twitter" className="Twitter-Name">
           Ezeh Racheal

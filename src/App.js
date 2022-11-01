@@ -18,24 +18,24 @@ function App() {
         <Profile />
       </div>
 
-      <div>
-        <Link href="https://twitter.com/jimzz_r/" text="Twitter Link" />
+      <div >
+        <Link  id="twitter" href="https://twitter.com/jimzz_r/" text="Twitter Link" />
 
-        <Link href="https://training.zuri.team/" text="Zuri Team" />
+        <Link id="btn__zuri" href="https://training.zuri.team/"  text="Zuri Team" />
 
-        <Link href="https://books.zuri.team/" text="Zuri Books" />
+        <Link id="books" href="https://books.zuri.team/"  text="Zuri Books" />
 
-        <Link
+        <Link id="book__python"
           href="https://books.zuri.team/python-for-beginners?ref_id=%3Cyourslackname%3E"
           text="Python Books"
         />
 
-        <Link
+        <Link id="pitch"
           href="https://background.zuri.team/"
           text="Background Check for Coders"
         />
 
-        <Link href="https://books.zuri.team/design-rules" text="Design Books" />
+        <Link id="book__design" href="https://books.zuri.team/design-rules"  text="Design Books" />
       </div>
 
       <div className="Social-icon">
