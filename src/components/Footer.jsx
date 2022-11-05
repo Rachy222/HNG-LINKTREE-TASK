@@ -3,6 +3,7 @@ import Zuri from "../images/zuri-logo.svg";
 
 export default function Footer() {
   return (
+
     <footer>
       <img src={Zuri} alt="Zuri-logo" className="Zuri-icon"></img>
       <p> HNG 9 Internship Frontend Task</p>
